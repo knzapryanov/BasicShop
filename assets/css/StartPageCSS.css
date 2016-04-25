@@ -1,0 +1,80 @@
+        #wrapper{
+            width: 960px;
+            margin: 0 auto;
+        }
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+            border-right:1px solid #bbb;
+            height: 46px;
+        }
+
+        li:last-child {
+            border-right: none;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        /*li a:hover:not(.active) {
+            background-color: #111;
+        }*/
+
+        .clicked-a {
+            background-color: #4CAF50;
+        }
+
+        .product-li{
+            padding: 7px;
+            width: 159px;
+            background-color: #EEEEEE; /* #DFDFDF;*/
+            padding-top: 15px;
+            height: 24px;
+            padding-left: 10px;
+            padding-right: 14px;
+        }
+        .product-li:first-child{
+            width: 15px;
+        }
+        .products-ul{
+            margin: 3px auto;
+            border: 1px #555555;
+            width: 907px;
+        }
+        .products-ul-header{
+            margin: 20px auto 0px auto;
+            width: 907px;
+            font-weight: bold;
+        }
+        .center-div{
+            padding: 0 27px 0 58px;
+        }
+        .qty-field{
+            position: absolute;
+            width: 21px;
+        }
+        .products-li-last{
+            padding: 7px;
+            width: 192px;
+            background-color: #EEEEEE; /* #DFDFDF;*/
+            padding-top: 15px;
+            height: 24px;
+            padding-left: 10px;
+            padding-right: 14px;
+        }
+        .add-to-cart-button{
+            margin-left: 33px;
+            margin-top: 2px;
+        }

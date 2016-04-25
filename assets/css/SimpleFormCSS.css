@@ -1,0 +1,48 @@
+#wrapper{
+	padding: 12px;
+	background-color: #EEEEEE;
+	width:560px;
+	margin: 0 auto;
+	overflow: auto;
+}
+p{
+	margin-bottom: 6px;
+}
+input{
+	display: block;
+	margin-top: 5px;
+	width:250px;
+}
+.register-form-wrapper{
+	float: left;
+	margin: 10px;
+	width: 254px;
+	border: 1px solid black;
+	padding: 5px;
+}
+.register-submit{
+	float: right;
+	display: inline;
+	width: 100px;
+}
+/**************/
+.login-submit{
+	width: 100px;
+	float: right;
+}
+.login-form-wrapper{
+	float: right;
+	padding: 0px 8px 30px 8px;
+	background-color: #234465;
+	color: white;
+	margin-top: 13px;
+}
+.remember-me{
+	width: 10px;
+	float: left;
+}
+.remember-me-paragraph{
+	margin: 3px 0 0 0;
+	display: block;
+	font-size: 0.8em;
+}
